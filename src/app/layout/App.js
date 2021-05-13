@@ -1,10 +1,11 @@
+import React from 'react';
+import EventDashboard from '../../features/events/eventDashboard/EventDashboard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h3>Coming Soon ...</h3>
-      </header>
+    <div>
+        <h3>dirGo Coming Soon ...</h3>
+        <EventDashboard />
     </div>
   );
 }
