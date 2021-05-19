@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
-import EventDashboard from '../../features/events/eventDashboard/EventDashboard';
+import CustomerDashboard from '../../features/customers/customerDashboard/CustomerDashboard';
 import NavBar from '../../features/nav/NavBar';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
         <NavBar />
         <Container className="main">
-          <EventDashboard />
+          <CustomerDashboard />
         </Container>
     </>
   );
