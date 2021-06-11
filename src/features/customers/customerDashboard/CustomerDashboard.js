@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid } from 'semantic-ui-react';
+import CustomerForm from '../customerForm/CustomerForm';
 import CustomerList from '../CustomerList';
 
 export default function CustomerDashboard() {
@@ -10,7 +11,7 @@ export default function CustomerDashboard() {
                 <CustomerList />
             </Grid.Column>
             <Grid.Column width={6}>
-                <h2>Right Column</h2>
+                <CustomerForm />
             </Grid.Column>
         </Grid>
     );
